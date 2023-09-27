@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:id="@+id/forget_username"
+        android:lines="1"
+
+        android:inputType="text"
+        android:hint="EmailId"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:id="@+id/forget_color"
+        android:lines="1"
+        android:hint="Favorite Food"/>
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:id="@+id/forget_friend"
+        android:lines="1"
+        android:hint="Best Friend Name"/>
+</LinearLayout>

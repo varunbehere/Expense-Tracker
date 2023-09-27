@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/iconround"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ExpenseTracker">
+        <activity
+            android:name=".PieChartActivity"
+            android:exported="false" >
+        </activity>
+        <activity
+            android:name=".Month"
+            android:exported="false" >
+
+        </activity>
+        <activity
+            android:name=".DisplayHistory"
+            android:exported="false" />
+        <activity
+            android:name=".ListView_expances"
+            android:exported="false" />
+        <activity
+            android:name=".TransporttationHistory"
+            android:exported="false" />
+        <activity
+            android:name=".HelpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".userProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Savings"
+            android:exported="false" />
+        <activity
+            android:name=".Spending"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".ExpenseOut"
+            android:exported="true" />
+        <activity
+            android:name=".Budget"
+            android:exported="false" />
+        <activity
+            android:name=".ExpenseIn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
